@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelavent variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/tli/devel/potato_env"
+VIRTUAL_ENV="$DEVEL_PATH/potato_env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
